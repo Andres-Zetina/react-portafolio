@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "http://Andres-Zetina.github.io/react-portafolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
