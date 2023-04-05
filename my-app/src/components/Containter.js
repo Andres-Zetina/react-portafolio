@@ -28,7 +28,7 @@ export default function Container() {
         <div>
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

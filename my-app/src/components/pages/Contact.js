@@ -15,16 +15,10 @@ export default function Contact() {
         <textarea id="message" name="message" rows="4" required></textarea>
 
         <button type="submit">Submit</button>
-        <br/>
-        <br/>
-        <br/>
-        
       </form>
-            <footer className="footer">
-            <a href="https://www.linkedin.com/in/andres-zetina-350662261/">LinkedIn</a>
-            <a href="https://github.com/Andres-Zetina">GitHub</a>
-      </footer>
+      
         </div>
+        
     )
 }
 
@@ -77,6 +71,10 @@ const contactCss = `
 
 
 .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

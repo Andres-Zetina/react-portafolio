@@ -22,15 +22,12 @@ export default function Projects (){
         <img src={library} alt="Google Books" />
         <p className="project-title">Book Search Engine</p>
       </a>
-      <a href="https://github.com/Andres-Zetina">
+      <a href="https://evening-fjord-31018.herokuapp.com/">
         <img src={project3} alt="Project 3" />
-        <p className="project-title">Future project 3</p>
+        <p className="project-title">ChatBite</p>
       </a>
       <br></br>
-      <footer className="footer">
-        <a href="https://www.linkedin.com/in/andres-zetina-350662261/">LinkedIn</a>
-        <a href="https://github.com/Andres-Zetina">GitHub</a>
-      </footer>
+      
     </div>
     </div>
     )
@@ -67,6 +64,10 @@ img {
     margin: 0;
 }
  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

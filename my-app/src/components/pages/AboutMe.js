@@ -9,6 +9,7 @@ export default function AboutMe(){
             <style type='text/css'>{aboutcss}</style>
         <div className="about-container">
             <h1 className="text-center name-header">Andres Zetina</h1>
+            <br/>
             <div className="content-container">
                 <div className="text-container">
                     <h4 className="about-text">
@@ -25,12 +26,7 @@ export default function AboutMe(){
                     <img src={profileImg} alt="profile image" className="profile-image"/>
                 </div>
             </div>
-            
         </div>
-        <footer className="footer">
-        <a href="https://www.linkedin.com/in/andres-zetina-350662261/">LinkedIn</a>
-        <a href="https://github.com/Andres-Zetina">GitHub</a>
-      </footer>
         </div>
     )
 }
@@ -43,7 +39,7 @@ const aboutcss = `
 }
 
 .name-header {
-    margin-top: 40px;
+    margin-top: px;
     font-size: 75px;
 }
 
@@ -52,7 +48,7 @@ const aboutcss = `
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .text-container {
@@ -73,6 +69,10 @@ const aboutcss = `
     width: 100%;
 }
 .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
