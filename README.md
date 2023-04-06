@@ -1,15 +1,8 @@
-# React Portafolio
-A personal portafolio to show off works and future projects.
+# Andres Zetina Portafolio
+Welcome to my portfolio! This is a showcase of my work as a web developer. You can find my latest projects, my technical skills, and more about me.
 
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Test](#test)
-  - [License](#license)
-  - [Contact](#contact)
   
   ## Installation
   No instilation required
@@ -17,19 +10,23 @@ A personal portafolio to show off works and future projects.
   ## Usage
   
 Contact me if youre intrested 
+Visit my porfolio [here](https://andres-zetina.github.io/react-portafolio/#AboutMe)
   
   ## Contribution
   
   Send me recommondations on how I can improve my work 
   
-  ## Test
-  No testing needed
+ ## Built With 
+ - React - JavaScript library for building user interfaces
+ - Bootstrap - Front-end framework for building responsive websites
+ - React Router - Declarative routing for React
+ - react-typed - A react component that types out a string
   
-
-  
-  ## License this porject is license under the [MIT](https://opensource.org/licenses/MIT) license.
+  ## This porject is license under the [MIT](https://opensource.org/licenses/MIT) license.
   
   ## Contact
   
   - GitHub: [Andres-Zetina](https://github.com/Andres-Zetina/react-portafolio)
   - Email: zetinaandres700@gmail.com
+
+
