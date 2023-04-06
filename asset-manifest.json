@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portafolio/static/css/main.ab8d7b57.css",
-    "main.js": "/react-portafolio/static/js/main.8acfaf19.js",
+    "main.css": "/react-portafolio/static/css/main.c443ac22.css",
+    "main.js": "/react-portafolio/static/js/main.6369539c.js",
     "static/media/profileImg.jpeg": "/react-portafolio/static/media/profileImg.7a525daed5f5895d99b4.jpeg",
     "static/media/Library.jpg": "/react-portafolio/static/media/Library.0cc9bdc3841d82d67f0a.jpg",
     "static/media/casino.jpg": "/react-portafolio/static/media/casino.88f9b537f8df451c4aec.jpg",
     "static/media/gaming.jpg": "/react-portafolio/static/media/gaming.9c43260d8f5cf2b3bb0e.jpg",
     "static/media/futureProject.jpg": "/react-portafolio/static/media/futureProject.e3d3a3d0f39dcda6e02d.jpg",
     "index.html": "/react-portafolio/index.html",
-    "main.ab8d7b57.css.map": "/react-portafolio/static/css/main.ab8d7b57.css.map",
-    "main.8acfaf19.js.map": "/react-portafolio/static/js/main.8acfaf19.js.map"
+    "main.c443ac22.css.map": "/react-portafolio/static/css/main.c443ac22.css.map",
+    "main.6369539c.js.map": "/react-portafolio/static/js/main.6369539c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab8d7b57.css",
-    "static/js/main.8acfaf19.js"
+    "static/css/main.c443ac22.css",
+    "static/js/main.6369539c.js"
   ]
 }
