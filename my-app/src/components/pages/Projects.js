@@ -8,23 +8,24 @@ import project3 from '../../images/futureProject.jpg'
 export default function Projects (){
     return(
         <div>
+          <h1 className="text-center name-header">Projects</h1>
             <style type='text/css'>{ProjectCss}</style>
         <div className="container">
       <a href="https://snerowski.github.io/casino-worldwide/">
-        <img src={casino} alt="Casino image" />
+        <img src={casino} alt="Casino image" className="project-image" />
         <h3 className="project-title">Casino World</h3>
       </a>
       <a href="https://github.com/jeremystevens515/game-track">
-        <img src={gaming} alt="Gaming" />
-        <p className="project-title">Game-track</p>
+        <img src={gaming} alt="Gaming" className="project-image" />
+        <h3 className="project-title">Game-track</h3>
       </a>
       <a href="https://warm-sea-87991.herokuapp.com/">
-        <img src={library} alt="Google Books" />
-        <p className="project-title">Book Search Engine</p>
+        <img src={library} alt="Google Books" className="project-image" />
+        <h3 className="project-title">Book Search Engine</h3>
       </a>
       <a href="https://evening-fjord-31018.herokuapp.com/">
-        <img src={project3} alt="Project 3" />
-        <p className="project-title">ChatBite</p>
+        <img src={project3} alt="Project 3" className="project-image" />
+        <h3 className="project-title">ChatBite</h3>
       </a>
       <br></br>
       
@@ -34,11 +35,17 @@ export default function Projects (){
 }
 
 const ProjectCss = `
-container {
+.container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
+    height: 650px;
+    margin-bottom: 100px;
+}
+.name-header {
+  margin-bottom: 20px;
+  font-size: 75px;
 }
 
 a {
@@ -46,9 +53,10 @@ a {
     position: relative;
 }
 
-img {
+.project-image {
     width: 100%;
-    height: auto;
+    height: 325px;
+    object-fit: cover;
 }
 
 .project-title {
